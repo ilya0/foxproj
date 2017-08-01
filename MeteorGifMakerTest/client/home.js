@@ -6,8 +6,13 @@ Template.gifmaker.events({
     }
 });
 
-Template.showgif.events({
-    'click button': function(ev) {
-      Meteor.composegif();
+Template.submitgif.events({
+    'submit .form-register': function(event, template) {
+        event.preventDefault();
+        var timevariable = event.target.timeinput.value;
+        console.log("timeinput is " + timevariable);
+        Meteor.composegif(timevariable);
+
+
     }
 });

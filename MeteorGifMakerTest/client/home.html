@@ -25,31 +25,27 @@
             5.&nbsp;{{> gifmaker }}
         </div>
         <br>
-        <div>
-            <input type="number" placeholder="milliseconds" />
-        </div>
-        <br>
-        <div>
-            <button>Submit</button>
-        </div>
+
+         <div> Compose gif button - {{> submitgif }}
+         </div>
+
     </div>
 
-    <div> showgif - {{> showgif }}
-    </div>
 
 
 </div>
 </body>
 
+<!-- Template section -->
 
+<!-- Input template for files -->
 <template name="gifmaker">
     <input type=file />
 </template>
 
-
-<template name="showgif">
-    <input type=file />
-    <div>
-        <button>Download Gif</button>
-    </div>
+<template name="submitgif">
+    <form class="form-register">
+        <input type="number" name="timeinput" placeholder="milliseconds" />
+        <button type="submit" class="register">Compose Gif (submit)</button>
+    </form>
 </template>
