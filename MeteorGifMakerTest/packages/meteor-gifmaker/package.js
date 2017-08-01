@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1');
     api.addFiles('client/save_file.js', 'client');
+    api.addFiles('client/composegif.js', 'client');
 });
 
 

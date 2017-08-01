@@ -5,3 +5,9 @@ Template.gifmaker.events({
         });
     }
 });
+
+Template.showgif.events({
+    'click button': function(ev) {
+      Meteor.composegif();
+    }
+});

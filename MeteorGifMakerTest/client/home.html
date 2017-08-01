@@ -33,10 +33,23 @@
             <button>Submit</button>
         </div>
     </div>
+
+    <div> showgif - {{> showgif }}
+    </div>
+
+
 </div>
 </body>
 
 
 <template name="gifmaker">
     <input type=file />
+</template>
+
+
+<template name="showgif">
+    <input type=file />
+    <div>
+        <button>Download Gif</button>
+    </div>
 </template>
