@@ -7,6 +7,7 @@ console.log("compose gif hit");
         'http://i.imgur.com/Vo5mFZJ.gif'
     ];
 
+timevariable = 1;
 
 gifshot.createGIF({
     'gifWidth': 200,
@@ -18,7 +19,7 @@ gifshot.createGIF({
 
         var image = obj.image, animatedImage = document.createElement('img');
         animatedImage.src = image;
-        document.body.appendChild(animatedImage);
+        displaygif.appendChild(animatedImage);
     }
 });
 

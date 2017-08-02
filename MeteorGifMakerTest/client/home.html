@@ -5,10 +5,14 @@
     </header>
 
     <div>
+
         <div>
-            <div id="dropDiv" ondrop="" ondragover=""><span>Drag and <em>Drop</em> here</span></div>
+            <div id="dropDiv" ondrop="{this.style.backgroundColor = 'red'}" ondragover="{this.style.backgroundColor = 'purple'}">
+             <span>Drag and <em>Drop</em> here</span>
+            </div>
             <br>
         </div>
+
         <div>
             1.&nbsp;{{> gifmaker }}
         </div>
@@ -28,7 +32,10 @@
 
          <div> Compose gif button - {{> submitgif }}
          </div>
+<br>
 
+        <div id="displaygif">
+        </div>
     </div>
 
 
