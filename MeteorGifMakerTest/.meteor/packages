@@ -28,3 +28,4 @@ cfs:standard-packages
 cfs:filesystem
 cfs:gridfs
 raix:ui-dropped-event
+twbs:bootstrap

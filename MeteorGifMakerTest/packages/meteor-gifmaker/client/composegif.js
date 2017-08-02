@@ -2,7 +2,7 @@ Meteor.composegif = function(timevariable) {
 console.log("compose gif hit");
 
 var images = [];
-
+timevariable = timevariable ? timevariable/1000 : 1;
 
 Images.find().forEach(function(file) {
     images.push(file.url());

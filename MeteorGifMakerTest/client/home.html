@@ -1,24 +1,32 @@
 <body>
-<div class="container">
-    <header>
+<div class="container container-fluid">
+    <header class="col-md-1">
+    <div>
         <h1>Gif Maker Test</h1>
+    </div>
     </header>
 
-    <div>
+    <div class="col-md-1">
         <div>
             <div id="dropDiv" ondrop="{this.style.backgroundColor = 'red'}" ondragover="{this.style.backgroundColor = 'purple'}">
-             <span>Drag and <em>Drop</em> here</span>
+            <div class="centerblock">
+             <span>Drag and <em>Drop</em> Files here</span>
+             </div>
             </div>
             <br>
         </div>
         <br>
-            <div> {{> submitgif }}
+            <div class="centerblock">
+                <div> {{> submitgif }}
+                </div>
             </div>
         <br>
+        <div class = "centerblock">
             <div id="displaygif">
             </div>
             <div id="clicklinktext">
             </div>
+        </div>
     </div>
 </div>
 </body>
@@ -32,8 +40,8 @@
 
 <template name="submitgif">
     <form class="form-register">
-        <input type="number" name="timeinput" placeholder="milliseconds" />
-        <button type="submit" class="register">Compose Gif (submit)</button>
+        <input type="number" name="timeinput" placeholder="Enter Milliseconds" />
+        <button type="submit" class="register">Compose Gif (Submit)</button>
     </form>
 </template>
 
