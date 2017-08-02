@@ -1,18 +1,17 @@
-Meteor.composegif = function(timevariable,imagesvariable) {
+Meteor.composegif = function(timevariable) {
 console.log("compose gif hit");
 
- imagesvariable = [
-        'http://i.imgur.com/2OO33vX.png',
-        'http://i.imgur.com/qOwVaSN.png',
-        'http://i.imgur.com/Vo5mFZJ.gif'
-    ];
+var images = [];
 
-timevariable = 1;
+
+Images.find().forEach(function(file) {
+    images.push(file.url());
+  });
 
 gifshot.createGIF({
     'gifWidth': 200,
     'gifHeight': 200,
-    'images': imagesvariable,
+    'images': images,
     'interval': timevariable,
 }, function (obj) {
     if (!obj.error) {
