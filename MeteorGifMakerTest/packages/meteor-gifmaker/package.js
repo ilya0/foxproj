@@ -12,8 +12,14 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1');
+  api.use('cfs:standard-packages');
+  api.use('cfs:gridfs');
+  //api.use('raix:ui-dropped-event');
+
     api.addFiles('client/save_file.js', 'client');
     api.addFiles('client/composegif.js', 'client');
+    api.addFiles('lib/gifshot.js', 'client');
+    api.addFiles('lib/collections.js');
 });
 
 

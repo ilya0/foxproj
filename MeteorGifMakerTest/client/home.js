@@ -11,8 +11,7 @@ Template.submitgif.events({
         event.preventDefault();
         var timevariable = event.target.timeinput.value;
         console.log("timeinput is " + timevariable);
-        Meteor.composegif(timevariable);
-
+        // Meteor.composegif(timevariable);
 
     }
 });

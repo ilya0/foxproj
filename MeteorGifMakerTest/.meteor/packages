@@ -24,3 +24,6 @@ standard-minifier-css
 standard-minifier-js
 shell-server
 dynamic-import
+cfs:standard-packages
+cfs:filesystem
+cfs:gridfs
