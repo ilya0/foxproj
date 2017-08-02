@@ -16,9 +16,17 @@ gifshot.createGIF({
 }, function (obj) {
     if (!obj.error) {
 
-        var image = obj.image, animatedImage = document.createElement('img');
-        animatedImage.src = image;
-        displaygif.appendChild(animatedImage);
+      var link = document.createElement('a');
+      link.href = obj.image;
+      link.download = true;
+
+      var image = document.createElement('img');
+      image.src = obj.image;
+      link.appendChild(image);
+      displaygif.prepend(link);
+
+      clicklinktext.prepend(" Click Gif to Download");
+
     }
 });
 

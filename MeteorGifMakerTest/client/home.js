@@ -11,9 +11,6 @@ Template.gifmaker.events({
 
 
 
-
-
-
 //submit form that submits the time variable to composegif method
 
 Template.submitgif.events({

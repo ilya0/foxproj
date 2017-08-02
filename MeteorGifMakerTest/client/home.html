@@ -5,41 +5,21 @@
     </header>
 
     <div>
-
         <div>
             <div id="dropDiv" ondrop="{this.style.backgroundColor = 'red'}" ondragover="{this.style.backgroundColor = 'purple'}">
              <span>Drag and <em>Drop</em> here</span>
             </div>
             <br>
         </div>
-
-        <div>
-            1.&nbsp;{{> gifmaker }}
-        </div>
-        <div>
-            2.&nbsp;{{> gifmaker }}
-        </div>
-        <div>
-            3.&nbsp;{{> gifmaker }}
-        </div>
-        <div>
-            4.&nbsp;{{> gifmaker }}
-        </div>
-        <div>
-            5.&nbsp;{{> gifmaker }}
-        </div>
         <br>
-
-         <div> {{> submitgif }}
-         </div>
+            <div> {{> submitgif }}
+            </div>
         <br>
-
-        <div id="displaygif">
-        </div>
+            <div id="displaygif">
+            </div>
+            <div id="clicklinktext">
+            </div>
     </div>
-
-
-
 </div>
 </body>
 
@@ -56,3 +36,5 @@
         <button type="submit" class="register">Compose Gif (submit)</button>
     </form>
 </template>
+
+
