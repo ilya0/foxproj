@@ -5,13 +5,13 @@ This is a project using Meteor to create a gif from a series of pictures which w
 
 
 
-##Original assignment
-Create a Meteor package (Sample via box.com) that encapsulates the following functionality:
-Accept 5 images as input via browse or drag and drop
-Accept a numeric input in milliseconds 
-Given the 5 images, create an animated gif that changes images at the specified millisecond input in step 2
-Once the gif is created, display on a web page 
-And then give the user the ability to download the gif to store it on their local computer.
+## Original assignment
+1. Create a Meteor package (Sample via box.com) that encapsulates the following functionality:
+2. Accept 5 images as input via browse or drag and drop
+3. Accept a numeric input in milliseconds 
+4. Given the 5 images, create an animated gif that changes images at the specified millisecond input in step 2
+5. Once the gif is created, display on a web page 
+6. And then give the user the ability to download the gif to store it on their local computer.
 
 Requirements:
 Provide methods or application to test the package functionality
@@ -37,7 +37,7 @@ Resources:
 4. Click on the submit Link
 5. Gif will populate and will be able to be downloaded by clicking on the gif itself
 
-##Process in creating the app
+## Process in creating the app
 1. First I extracted and created the project with the template from the box download as specified.
 2. I went through all the links and read up on meteor. I never used any of the technologies or meteor before, so I needed to check out some resources on how to create meteor apps and also the various functionalities of the methodologies in meteor.
 3. I started modifying the template and experimenting with the templating engine. I had used templating engines before, much of it was similar,I used djinga in python and jade in express.
