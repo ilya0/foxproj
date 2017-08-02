@@ -18,6 +18,7 @@ Accept a numeric input in milliseconds
 Given the 5 images, create an animated gif that changes images at the specified millisecond input in step 2
 Once the gif is created, display on a web page 
 And then give the user the ability to download the gif to store it on their local computer.
+
 Requirements:
 Provide methods or application to test the package functionality
 Comment your code as appropriate (no need to comment every line. Only when necessary to clarify)
