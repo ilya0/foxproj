@@ -19,11 +19,11 @@ Comment your code as appropriate (no need to comment every line. Only when neces
 Publish to github including md file and provide us with the repository link via email
 Resources:
  
-1.        https://www.meteor.com
-2.        http://docs.meteor.com/#/full/writingpackages
-3.        https://yahoo.github.io/gifshot/index.html
-4.        http://mothereffinganimatedgif.com
-5.        Box.com zip file contains a skeleton Meteor Project (https://foxgroup.box.com/s/v5mwrcbifbm9m0rbp3lv89opg61bovyv)
+1. https://www.meteor.com
+2. http://docs.meteor.com/#/full/writingpackages
+3. https://yahoo.github.io/gifshot/index.html
+4. http://mothereffinganimatedgif.com
+5. Box.com zip file contains a skeleton Meteor Project (https://foxgroup.box.com/s/v5mwrcbifbm9m0rbp3lv89opg61bovyv)
 
 
 ## Running the GifMaker
